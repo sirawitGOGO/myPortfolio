@@ -15,14 +15,14 @@ interface ProjectItem {
 const experiences: ProjectItem[] = [
   {
     img_url: [
-        "public/images/GradexProject/GraDex01.png",
-        "public/images/GradexProject/GraDex02.png",
-        "public/images/GradexProject/GraDex03.png",
-        "public/images/GradexProject/GraDex04.png",
-        "public/images/GradexProject/GraDex05.png",
-        "public/images/GradexProject/GraDex06.png",
-        "public/images/GradexProject/GraDex07.png",
-        "public/images/GradexProject/GraDex08.png",
+        "/public/images/GradexProject/GraDex01.png",
+        "/public/images/GradexProject/GraDex02.png",
+        "/public/images/GradexProject/GraDex03.png",
+        "/public/images/GradexProject/GraDex04.png",
+        "/public/images/GradexProject/GraDex05.png",
+        "/public/images/GradexProject/GraDex06.png",
+        "/public/images/GradexProject/GraDex07.png",
+        "/public/images/GradexProject/GraDex08.png",
     ],
     year: "September 2024 - December 2024",
     title: "GraDex Subscription Platform Project",
@@ -35,11 +35,11 @@ const experiences: ProjectItem[] = [
   },
   {
     img_url: [
-        "public/images/Kiki'sTheaterProject/kiki01.png",
-        "public/images/Kiki'sTheaterProject/kiki02.png",
-        "public/images/Kiki'sTheaterProject/kiki03.png",
-        "public/images/Kiki'sTheaterProject/kiki04.png",
-        "public/images/Kiki'sTheaterProject/kiki05.png"
+        "/public/images/Kiki'sTheaterProject/kiki01.png",
+        "/public/images/Kiki'sTheaterProject/kiki02.png",
+        "/public/images/Kiki'sTheaterProject/kiki03.png",
+        "/public/images/Kiki'sTheaterProject/kiki04.png",
+        "/public/images/Kiki'sTheaterProject/kiki05.png"
     ],
     year: "April 2024 - May 2024",
     title: "Kiki's Theater Booking System Project",
@@ -53,8 +53,8 @@ const experiences: ProjectItem[] = [
   },
   {
     img_url: [
-        "public/images/portfolioImage/port01.png",
-        "public/images/portfolioImage/port02.png",
+        "/public/images/portfolioImage/port01.png",
+        "/public/images/portfolioImage/port02.png",
     ],
     year: "December 2024 - Present",
     title: "Portfolio website",
