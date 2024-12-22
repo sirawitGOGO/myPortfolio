@@ -1,5 +1,20 @@
 import React, { useState, useEffect } from "react";
 import { motion , AnimatePresence } from "framer-motion";
+import Gradex01 from "../../../public/images/GradexProject/GraDex01.png"
+import Gradex02 from "../../../public/images/GradexProject/GraDex02.png"
+import Gradex03 from "../../../public/images/GradexProject/GraDex03.png"
+import Gradex04 from "../../../public/images/GradexProject/GraDex04.png"
+import Gradex05 from "../../../public/images/GradexProject/GraDex05.png"
+import Gradex06 from "../../../public/images/GradexProject/GraDex06.png"
+import Gradex07 from "../../../public/images/GradexProject/GraDex07.png"
+import Gradex08 from "../../../public/images/GradexProject/GraDex08.png"
+import kiki01 from "../../../public/images/Kiki'sTheaterProject/kiki01.png"
+import kiki02 from "../../../public/images/Kiki'sTheaterProject/kiki02.png"
+import kiki03 from "../../../public/images/Kiki'sTheaterProject/kiki03.png"
+import kiki04 from "../../../public/images/Kiki'sTheaterProject/kiki04.png"
+import kiki05 from "../../../public/images/Kiki'sTheaterProject/kiki05.png"
+import port01 from "../../../public/images/portfolioImage/port01.png"
+import port02 from "../../../public/images/portfolioImage/port02.png"
 
 interface ProjectItem {
   img_url: string[];
@@ -15,14 +30,14 @@ interface ProjectItem {
 const experiences: ProjectItem[] = [
   {
     img_url: [
-        "/public/images/GradexProject/GraDex01.png",
-        "/public/images/GradexProject/GraDex02.png",
-        "/public/images/GradexProject/GraDex03.png",
-        "/public/images/GradexProject/GraDex04.png",
-        "/public/images/GradexProject/GraDex05.png",
-        "/public/images/GradexProject/GraDex06.png",
-        "/public/images/GradexProject/GraDex07.png",
-        "/public/images/GradexProject/GraDex08.png",
+        Gradex01,
+        Gradex02,
+        Gradex03,
+        Gradex04,
+        Gradex05,
+        Gradex06,
+        Gradex07,
+        Gradex08,
     ],
     year: "September 2024 - December 2024",
     title: "GraDex Subscription Platform Project",
@@ -35,11 +50,11 @@ const experiences: ProjectItem[] = [
   },
   {
     img_url: [
-        "/public/images/Kiki'sTheaterProject/kiki01.png",
-        "/public/images/Kiki'sTheaterProject/kiki02.png",
-        "/public/images/Kiki'sTheaterProject/kiki03.png",
-        "/public/images/Kiki'sTheaterProject/kiki04.png",
-        "/public/images/Kiki'sTheaterProject/kiki05.png"
+        kiki01,
+        kiki02,
+        kiki03,
+        kiki04,
+        kiki05
     ],
     year: "April 2024 - May 2024",
     title: "Kiki's Theater Booking System Project",
@@ -53,8 +68,8 @@ const experiences: ProjectItem[] = [
   },
   {
     img_url: [
-        "/public/images/portfolioImage/port01.png",
-        "/public/images/portfolioImage/port02.png",
+        port01,
+        port02,
     ],
     year: "December 2024 - Present",
     title: "Portfolio website",

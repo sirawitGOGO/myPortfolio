@@ -16,10 +16,10 @@ export const Contact: React.FC = ()=>  {
           icon={<ContactsFilled/>}
           onClick={toggleOpen}
         >
-          <FloatButton icon={<FacebookFilled/>} style={{backgroundColor: "#76ABAE"}}/>
-          <FloatButton icon={<InstagramFilled/>} style={{backgroundColor: "#76ABAE"}} />
-          <FloatButton icon={<GithubFilled/>} style={{backgroundColor: "#76ABAE"}} /> 
-          <FloatButton icon={<LinkedinFilled/>} style={{backgroundColor: "#76ABAE"}} /> 
+          <FloatButton icon={<FacebookFilled/>} href="https://www.facebook.com/sirawit.arsanok/" target="blank" style={{backgroundColor: "#76ABAE"}}/>
+          <FloatButton icon={<InstagramFilled/>} href="https://www.instagram.com/sssirxwxt/" target="blank" style={{backgroundColor: "#76ABAE"}} />
+          <FloatButton icon={<GithubFilled/>} href="https://github.com/sirawitGOGO" target="blank" style={{backgroundColor: "#76ABAE"}} /> 
+          <FloatButton icon={<LinkedinFilled/>} href="https://www.linkedin.com/in/sirawit-arsanok" target="blank" style={{backgroundColor: "#76ABAE"}} /> 
         </FloatButton.Group>
       </>
     );
