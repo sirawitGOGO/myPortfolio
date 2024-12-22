@@ -48,7 +48,7 @@ const experiences: ProjectItem[] = [
     responsibility:
       "Focusing on front-end development for theater seat booking feature and gained experience with React.js for the first time.",
     source_code: "https://github.com/sirawitGOGO/MovieTheater-DBproject",
-    view: "",
+    view: "https://movie-theater-d-bproject.vercel.app/",
     tools: ["React.js" , "Tailwind CSS" , "Node.js" , "MySQL" , "Javascript"],
   },
   {
