@@ -40,7 +40,7 @@ export const PageBanner: React.FC = ()=> {
                     </div>
                     <div className="relative rounded-full top-0 bg-center">
                         <motion.img 
-                            src="public\images\IMG_7882_crop.JPG" 
+                            src="/public/images/IMG_7882_crop.JPG" 
                             className="object-cover rounded-full w-48 h-48 md:w-96 md:h-96"
                             initial={{ scale: 1 }}
                             animate={{ scale: [1, 1.1, 1] }}
