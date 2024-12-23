@@ -87,7 +87,7 @@ export const Experience: React.FC = () => {
                     {experience.tools.map((tool, index) => (
                       <div
                         key={index}
-                        className="w-24 h-8 bg-teal-600 rounded-full flex justify-center items-center text-white "
+                        className="w-24 h-8 bg-teal-600 rounded-full flex justify-center items-center text-white cursor-default"
                       >
                         <span className="text-sm">{tool}</span>
                       </div>

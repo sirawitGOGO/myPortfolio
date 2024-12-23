@@ -78,7 +78,7 @@ const experiences: ProjectItem[] = [
     responsibility:
       "Focused on frontend development",
     source_code: "https://github.com/sirawitGOGO/myPortfolio",
-    view: "",
+    view: "https://sirawit-portfolio-plum.vercel.app/",
     tools: ["React.js", "Typescript" , "Tailwind CSS"],
   },
 ];
@@ -146,7 +146,7 @@ export const Project: React.FC = () => {
                     <a
                       href={experience.source_code}
                       target="blank"
-                      className="text-sm w-24 h-8 bg-teal-600 rounded-full flex justify-center items-center text-white transition-color duration-300 hover:opacity-50"
+                      className="text-sm w-24 h-8 border-2 border-teal-600 rounded-full flex justify-center items-center text-primary transition-color duration-300 hover:border-none hover:bg-teal-500 hover:text-white"
                     >
                       source code
                     </a>
@@ -154,7 +154,7 @@ export const Project: React.FC = () => {
                       <a
                         href={experience.view}
                         target="blank"
-                        className="text-sm w-24 h-8 bg-teal-600 rounded-full flex justify-center items-center text-white transition-color duration-300 hover:opacity-50"
+                        className="text-sm w-24 h-8 border-2 border-teal-600 rounded-full flex justify-center items-center text-primary transition-color duration-300 hover:border-none hover:bg-teal-500 hover:text-white"
                       >
                         view
                       </a>
@@ -165,7 +165,7 @@ export const Project: React.FC = () => {
                       {experience.tools.map((tool, toolIndex) => (
                         <div
                           key={toolIndex}
-                          className="w-24 h-8 bg-teal-600 rounded-full flex justify-center items-center text-white"
+                          className="w-24 h-8 bg-teal-600 rounded-full flex justify-center items-center text-white cursor-default"
                         >
                           <span className="text-sm">{tool}</span>
                         </div>

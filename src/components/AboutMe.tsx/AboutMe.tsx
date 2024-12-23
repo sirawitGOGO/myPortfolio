@@ -44,7 +44,7 @@ export const AboutMe: React.FC = () => {
   };
 
   return (
-    <div id="aboutme" className="w-screen h-screen flex flex-col pt-36 justify-start items-center text-primary secondary font-titillium z-10 relative">
+    <div id="aboutme" className="w-screen min-h-screen flex flex-col pt-36 justify-start items-center text-primary secondary font-titillium z-10 relative">
       <div className="flex flex-col items-start w-2/3 mb-16">
         <h1 className="text-primary text-lg md:text-4xl font-bold">About me</h1>
         <span className="border border-teal-600 w-full"></span>
