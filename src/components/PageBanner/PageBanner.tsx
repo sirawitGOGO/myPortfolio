@@ -15,8 +15,8 @@ export const PageBanner: React.FC = ()=> {
                         <motion.span 
                             className="absolute mx-auto flex border w-fit bg-[#76ABAE] blur-md bg-clip-text text-lg md:text-4xl lg:text-5xl box-content font-bold text-transparent text-center select-none"
                             initial={{ scale: 1 }}
-                            animate={{ scale: [1, 1.08, 1] }}
-                            transition={{ duration: 2, repeat: Infinity, repeatType: "loop" }}
+                            animate={{ scale: [1, 1.03, 1] }}
+                            transition={{ duration: 3, repeat: Infinity, repeatType: "loop" }}
                         >
                             Sirawit Arsanok
                         </motion.span>
@@ -29,26 +29,19 @@ export const PageBanner: React.FC = ()=> {
                     <h3 className="text-xs md:text-sm lg:text-md">Intership Computer engineering KMUTT</h3>
                 </div>
                 <div>
-                    <div className="absolute rounded-full blur-md border-8">
-                        <motion.img 
-                            src={myself} 
-                            className="object-cover rounded-full w-36 h-36 md:w-48 md:h-48 lg:w-64 lg:h-64"
-                            initial={{ scale: 1 }}
-                            animate={{ scale: [1, 1.1, 1] }}
-                            transition={{ duration: 3, repeat: Infinity, repeatType: "loop" }}
-                        >
-                        </motion.img>
-                    </div>
-                    <div className="relative rounded-full top-0">
-                        <motion.img 
-                            src={myself} 
-                            className="object-cover rounded-full w-36 h-36 md:w-48 md:h-48 lg:w-64 lg:h-64"
-                            initial={{ scale: 1 }}
-                            animate={{ scale: [1, 1.1, 1] }}
-                            transition={{ duration: 3, repeat: Infinity, repeatType: "loop" }}
-                        >
-                        </motion.img>
-                    </div>
+                        <div className="relative rounded-full top-0">
+                            <motion.img
+                                src={myself}
+                                className="object-cover rounded-full w-36 h-36 md:w-48 md:h-48 lg:w-64 lg:h-64"
+                                initial={{ opacity: 0, scale: 0.5 }}
+                                animate={{ opacity: 1, scale: 1 }}
+                                transition={{
+                                  duration: 2,
+                                  delay: 0.5,
+                                  ease: [0, 0.71, 0.2, 1.01]
+                                }}
+                            />
+                        </div>
                 </div>
             </div>
         </header>
