@@ -78,7 +78,7 @@ const experiences: ProjectItem[] = [
     responsibility:
       "Focused on frontend development",
     source_code: "https://github.com/sirawitGOGO/myPortfolio",
-    view: "https://sirawit-portfolio-plum.vercel.app/",
+    view: "https://sirawit-portfolio-lyart.vercel.app/",
     tools: ["React.js", "Typescript" , "Tailwind CSS"],
   },
 ];
