@@ -60,7 +60,7 @@ export const Footer: React.FC = () => {
             viewport={{ once: true }}
           >
             <FaEnvelope size={24} />
-            <span className="text-lg">beforever369@gmail.com.com</span>
+            <span className="text-lg">beforever369@gmail.com</span>
           </motion.div>
         </div>
       </motion.div>
