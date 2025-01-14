@@ -20,7 +20,7 @@ const experiences: ExperienceItem[] = [
       "Building websites based on requirements for the eLearning Forum Asia 2025 conference with the team.",
     responsibility: "Implementing both frontend and backend development and designing UX/UI for the website.",
     additional: "Ongoing backend process and planning to use Golang.",
-    tools: ["React.js", "Typescript", "Tailwind CSS", "Golang"],
+    tools: ["React.js", "Typescript", "Tailwind CSS"],
   },
   {
     year: "September 2024 - Present",
